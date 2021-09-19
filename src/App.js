@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+import Memes from './component/Memes';
+import logo from './logo.svg';
 
 function App() {
   return (
@@ -18,6 +19,11 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <div>
+        <h1>From the Memes file from the personal component</h1>
+        <Memes />
+      </div>
     </div>
   );
 }
